@@ -1,0 +1,31 @@
+{
+  "name": "dsh-qq-bridge",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Bridge QQ (NapCat / OneBot 11) into DeepSeek Harness agent sessions — replies come from your real agent, with its persona, memory and tools.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "qq",
+    "onebot",
+    "napcat",
+    "bot"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.4"
+  }
+}
