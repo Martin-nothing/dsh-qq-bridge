@@ -1,0 +1,12 @@
+- insert:
+    - id: qq-bridge
+      name: dsh-qq-bridge
+      config:
+        httpUrl: http://127.0.0.1:3000
+        wsUrl: ws://127.0.0.1:3001
+        token: change-me
+        owner: 10001
+        friends: []
+        groups: []
+        mentionOnly: true
+        name_aliases: ['大肥鱼']
